@@ -1,0 +1,126 @@
+<%- include("partial/header") %> 
+
+<div class="container-fluid">
+    <div class="row">
+      <!-- ======= Sidebar ======= -->
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse pt-5">
+        <div class="position-sticky pt-3">
+          <ul class="nav flex-column">
+            <h5 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+              <span>Pencarian</span>
+            </h5>
+            <li class="nav-item">
+              <div class="input-group mb-3 ">
+                <input type="text" class="form-control" placeholder="Cari">
+                <div class="input-group-append">
+                  <a class="input-group-text " href="#" aria-label="Add a new report">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                      <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <h5 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            <span>Kategori</span>
+          </h5>
+          <ul class="nav flex-column mb-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5A.5.5 0 0 0 4 8z"/>
+                </svg>
+                Semua Berita
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5A.5.5 0 0 0 4 8z"/>
+                </svg>
+                Berita Sekolah
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5A.5.5 0 0 0 4 8z"/>
+                </svg>
+                Pengumuman
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5A.5.5 0 0 0 4 8z"/>
+                </svg>
+                Perlombaan
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- ======= Content ======= -->
+      <main id="main" class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+
+        <!-- ======= Breadcrumbs ======= -->
+        <div class="breadcrumbs" data-aos="fade-in">
+          <div class="container">
+            <h2>Berita</h2>
+          </div>
+        </div><!-- End Breadcrumbs -->
+
+        <!-- ======= Events Section ======= -->
+        <section id="events" class="events">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="card">
+                  <div class="card-img">
+                    <img src="/img/events-1.jpg" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="">Introduction to webdesign</a></h5>
+                    <p class="font-italic text-center">Sunday, September 26th at 7:00 pm</p>
+                    <p class="font-italic">Author 1 </p>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore
+                      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                      aliquip ex ea commodo consequat</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="card">
+                  <div class="card-img">
+                    <img src="/img/events-2.jpg" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="">Marketing Strategies</a></h5>
+                    <p class="font-italic text-center">Sunday, November 15th at 7:00 pm</p>
+                    <p class="font-italic">Author 2 </p>
+                    <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque
+                      laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                      beatae vitae dicta sunt explicabo</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </section><!-- End Events Section -->
+
+      </main><!-- End #main -->
+    </div>
+  </div>
+
+  <%- include("partial/footer") %> 
