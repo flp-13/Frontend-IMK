@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #A80F4B;
+  color: #444444;
 }
 
 a:hover {
-  color: #800032;
+  color: #A80F4B;
   text-decoration: none;
 }
 
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #5fcf80;
+  border: 6px solid #A80F4B;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -1055,13 +1055,16 @@ section {
   }
   .cource-details-tabs .nav-link.active {
     color: #fff;
-    background: #5fcf80;
+    background: #A80F4B;
   }
 }
 
 /*--------------------------------------------------------------
 # Events
 --------------------------------------------------------------*/
+.sidebar-heading span {
+  font-weight: 700 ;
+}
 .events .card {
   border: 0;
   padding: 0 30px;
@@ -1255,7 +1258,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #5fcf80;
+  color: #A80F4B;
   float: left;
   width: 44px;
   height: 44px;
@@ -1287,7 +1290,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #5fcf80;
+  background: #A80F4B;
   color: #fff;
 }
 
@@ -1357,7 +1360,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #5fcf80;
+  border-color: #A80F4B;
 }
 
 .contact .php-email-form input {
@@ -1369,7 +1372,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #5fcf80;
+  background: #A80F4B;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1378,7 +1381,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #3ac162;
+  background: #44001a;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1453,7 +1456,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5fcf80;
+  color: #A80F4B;
   font-size: 18px;
   line-height: 1;
 }
@@ -1525,7 +1528,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #3ac162;
+  background: #44001a;
 }
 
 #footer .credits {
@@ -1539,7 +1542,7 @@ section {
 }
 
 #footer .credits a:hover {
-  color: #800032;
+  color: #44001a;
 }
 
 #footer .social-links a {
@@ -1558,7 +1561,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background:#800032;
+  background:#44001a;
   color: #fff;
   text-decoration: none;
 }
