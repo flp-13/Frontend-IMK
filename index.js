@@ -20,6 +20,10 @@ app.get("/contact", (req,res)=>{
     res.render("contact", {curPage: "contact"});
 });
 
+app.get("/galeri", (req,res)=>{
+    res.render("galeri", {curPage: "galeri"});
+});
+
 app.get("/login", (req,res)=>{
     res.render("login");
 });

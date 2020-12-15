@@ -773,6 +773,7 @@ section {
 
 .courses .trainer {
   padding-top: 15px;
+  padding-bottom: 15px;
   border-top: 1px solid #eef0ef;
 }
 
@@ -782,7 +783,6 @@ section {
 }
 
 .courses .trainer .trainer-profile span {
-  padding-left: 10px;
   font-weight: 600;
   font-size: 16px;
   color: #5a6c60;
