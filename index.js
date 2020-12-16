@@ -24,8 +24,16 @@ app.get("/galeri", (req,res)=>{
     res.render("galeri", {curPage: "galeri"});
 });
 
+app.get("/galeri/:id", (req,res)=>{
+    res.render("detail-galeri", {curPage: "galeri"});
+});
+
 app.get("/login", (req,res)=>{
     res.render("login");
+});
+
+app.get('*', (req,res)=>{
+    res.render("error");
 });
 
 app.listen(3000, ()=>{

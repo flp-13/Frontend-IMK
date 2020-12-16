@@ -390,6 +390,24 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
+/*--------------------------------------------------------------
+# 404 Error Page Section
+--------------------------------------------------------------*/
+.return-home-btn {
+  display: inline-block;
+  background: #A80F4B;
+  padding: 6px 30px 8px 30px;
+  color:#fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+}
+
+.return-home-btn:hover {
+  background: #fff;
+  color:#A80F4B ;
+  border-radius: 50px;
+  border-color: #A80F4B ;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
