@@ -1080,6 +1080,10 @@ section {
 /*--------------------------------------------------------------
 # Events
 --------------------------------------------------------------*/
+.page-item .page-link{
+  color:#fff;
+  background-color: #A80F4B ;
+}
 .sidebar-heading span {
   font-weight: 700 ;
 }
